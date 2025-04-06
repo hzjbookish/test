@@ -1,0 +1,1 @@
+"{'errorCode': {'jsonpath': '$.errorCode', 'type': '==', 'value': 0, 'AssertType': None}, 'username': {'jsonpath': '$.data.userInfo.username', 'type': '==', 'value': '13336999328', 'AssertType': None}}"

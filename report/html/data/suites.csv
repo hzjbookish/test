@@ -1,0 +1,61 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"
+        :param :
+        :return:
+        ","267","test_login[输入错误的密码]","test_case.Login","Sun Apr 06 22:58:52 CST 2025","broken","Sun Apr 06 22:58:52 CST 2025","TestLogin","test_login","",""
+"
+        :param :
+        :return:
+        ","196","test_collect_addtool[新增收藏网址接口]","test_case.Collect","Sun Apr 06 22:58:48 CST 2025","broken","Sun Apr 06 22:58:49 CST 2025","TestCollectAddtool","test_collect_addtool","",""
+"
+        :param :
+        :return:
+        ","278","test_login[手机号码为空]","test_case.Login","Sun Apr 06 22:58:53 CST 2025","broken","Sun Apr 06 22:58:54 CST 2025","TestLogin","test_login","",""
+"
+        :param :
+        :return:
+        ","272","test_login[输入手机号码大于于11位]","test_case.Login","Sun Apr 06 22:58:53 CST 2025","broken","Sun Apr 06 22:58:53 CST 2025","TestLogin","test_login","",""
+"
+        :param :
+        :return:
+        ","177","test_get_user_info[正常获取个人身份信息]","test_case.UserInfo","Sun Apr 06 22:58:48 CST 2025","broken","Sun Apr 06 22:58:48 CST 2025","TestGetUserInfo","test_get_user_info","",""
+"
+        :param :
+        :return:
+        ","2221","test_collect_tool_list[查看收藏网址列表接口]","test_case.Collect","Sun Apr 06 22:58:49 CST 2025","broken","Sun Apr 06 22:58:51 CST 2025","TestCollectToolList","test_collect_tool_list","",""
+"
+        :param :
+        :return:
+        ","0","test_collect_delete_tool[正常删除不存在的ID数据（接口未完成此功能，跳过该条用例）]","test_case.Collect","Sun Apr 06 22:58:49 CST 2025","skipped","Sun Apr 06 22:58:49 CST 2025","TestCollectDeleteTool","test_collect_delete_tool","",""
+"
+        :param :
+        :return:
+        ","218","test_collect_delete_tool[正常删除收藏网站]","test_case.Collect","Sun Apr 06 22:58:54 CST 2025","broken","Sun Apr 06 22:58:54 CST 2025","TestCollectDeleteTool","test_collect_delete_tool","",""
+"
+        :param :
+        :return:
+        ","626","test_login[正常登录]","test_case.Login","Sun Apr 06 22:58:51 CST 2025","broken","Sun Apr 06 22:58:52 CST 2025","TestLogin","test_login","",""
+"
+        :param :
+        :return:
+        ","0","test_collect_update_tool[编辑收藏网址]","test_case.Collect","Sun Apr 06 22:58:51 CST 2025","skipped","Sun Apr 06 22:58:51 CST 2025","TestCollectUpdateTool","test_collect_update_tool","",""
+"
+        :param :
+        :return:
+        ","289","test_login[登录密码为空]","test_case.Login","Sun Apr 06 22:58:52 CST 2025","broken","Sun Apr 06 22:58:52 CST 2025","TestLogin","test_login","",""
+"
+        :param :
+        :return:
+        ","317","test_login[输入手机号码小于11位]","test_case.Login","Sun Apr 06 22:58:53 CST 2025","broken","Sun Apr 06 22:58:53 CST 2025","TestLogin","test_login","",""
+"
+        :param :
+        :return:
+        ","307","test_login[输入非1开头的手机号码]","test_case.Login","Sun Apr 06 22:58:52 CST 2025","broken","Sun Apr 06 22:58:53 CST 2025","TestLogin","test_login","",""
+"
+        :param :
+        :return:
+        ","173","test_collect_addtool[未登录状态下新增收藏网址]","test_case.Collect","Sun Apr 06 22:58:49 CST 2025","broken","Sun Apr 06 22:58:49 CST 2025","TestCollectAddtool","test_collect_addtool","",""
+"
+        :param :
+        :return:
+        ","296","test_login[手机号码首位包含空格]","test_case.Login","Sun Apr 06 22:58:54 CST 2025","broken","Sun Apr 06 22:58:54 CST 2025","TestLogin","test_login","",""
