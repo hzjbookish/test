@@ -1,0 +1,4 @@
+ERROR   2025-04-06 13:17:27,498g:\demo\PY\From0to1\logs\error-2025-04-06.log:log_control.py:82 测试
+ERROR   2025-04-06 22:43:55,097g:\demo\PY\From0to1\logs\error-2025-04-06.log:conftest.py:117 失败用例数: 0
+ERROR   2025-04-06 22:52:18,979g:\demo\PY\From0to1\logs\error-2025-04-06.log:conftest.py:119 失败用例数: 0
+ERROR   2025-04-06 22:58:55,144G:\demo\PY\From0to1\logs\error-2025-04-06.log:conftest.py:119 失败用例数: 13

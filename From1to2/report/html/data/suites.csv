@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"
+        :param :
+        :return:
+        ","223","test_get_user_info[正常获取个人身份信息]","test_case.UserInfo","Sat Apr 12 23:36:55 CST 2025","passed","Sat Apr 12 23:36:55 CST 2025","TestGetUserInfo","test_get_user_info","",""

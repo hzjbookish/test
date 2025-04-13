@@ -1,0 +1,348 @@
+INFO    2025-04-06 22:40:55,709g:\demo\PY\From0to1\logs\info-2025-04-06.log:run.py:18 开始执行xxx项目名称项目
+INFO    2025-04-06 22:42:59,898g:\demo\PY\From0to1\logs\info-2025-04-06.log:run.py:18 开始执行xxx项目名称项目
+INFO    2025-04-06 22:43:47,050g:\demo\PY\From0to1\logs\info-2025-04-06.log:run.py:18 开始执行xxx项目名称项目
+INFO    2025-04-06 22:43:48,851g:\demo\PY\From0to1\logs\info-2025-04-06.log:log_decorator.py:38 
+======================================================
+用例标题: 正常获取个人身份信息
+请求路径: https://www.wanandroid.com/user/lg/userinfo/json
+请求方式: GET
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data;', 'cookie': 'loginUserName_wanandroid_com=13336999328;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;JSESSIONID=D9351AD63F784F07B5EE1026E07711CE;loginUserName=13336999328;token_pass=5d9b90bcb70640183e09d1e755ead823;'}
+请求内容: None
+接口响应内容: {"data":{"coinInfo":{"coinCount":33,"level":1,"nickname":"","rank":"41579","userId":167122,"username":"1**36999328"},"collectArticleInfo":{"count":0},"userInfo":{"admin":false,"chapterTops":[],"coinCount":33,"collectIds":[],"email":"","icon":"","id":167122,"nickname":"13336999328","password":"","publicName":"13336999328","token":"","type":0,"username":"13336999328"}},"errorCode":0,"errorMsg":""}
+接口响应时长: 209 ms
+Http状态码: 200
+=====================================================
+INFO    2025-04-06 22:43:49,052g:\demo\PY\From0to1\logs\info-2025-04-06.log:log_decorator.py:38 
+======================================================
+用例标题: 新增收藏网址接口
+请求路径: https://www.wanandroid.com/lg/collect/addtool/json
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'cookie': 'loginUserName_wanandroid_com=13336999328;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;JSESSIONID=D9351AD63F784F07B5EE1026E07711CE;loginUserName=13336999328;token_pass=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '93', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容: {'name': '自动化', 'link': 'https://gitee.com/yu_xiao_qi/pytest-auto-api2'}
+接口响应内容: {"data":{"desc":"","icon":"","id":104335,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":167122,"visible":1},"errorCode":0,"errorMsg":""}
+接口响应时长: 189 ms
+Http状态码: 200
+=====================================================
+INFO    2025-04-06 22:43:49,317g:\demo\PY\From0to1\logs\info-2025-04-06.log:log_decorator.py:38 
+======================================================
+用例标题: 正常删除收藏网站
+请求路径: https://www.wanandroid.com/lg/collect/deletetool/json
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data; boundary=e67729c6ba614079b11615f2a682fc83', 'cookie': 'loginUserName_wanandroid_com=13336999328;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;JSESSIONID=D9351AD63F784F07B5EE1026E07711CE;loginUserName=13336999328;token_pass=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '212'}
+请求内容: {'id': 104335, 'id2': 2}
+接口响应内容: {"data":null,"errorCode":0,"errorMsg":""}
+接口响应时长: 221 ms
+Http状态码: 200
+=====================================================
+INFO    2025-04-06 22:43:49,497g:\demo\PY\From0to1\logs\info-2025-04-06.log:log_decorator.py:38 
+======================================================
+用例标题: 未登录状态下新增收藏网址
+请求路径: https://www.wanandroid.com/lg/collect/addtool/json
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data; boundary=3abb3e7790f441c6b4219c7e4a987779', 'Content-Length': '280'}
+请求内容: {'name': '自动生成收藏网址477', 'link': 'https://gitee.com/yu_xiao_qi/pytest-auto-api2'}
+接口响应内容: {"errorCode":-1001,"errorMsg":"请先登录！"}
+接口响应时长: 171 ms
+Http状态码: 200
+=====================================================
+INFO    2025-04-06 22:43:51,721g:\demo\PY\From0to1\logs\info-2025-04-06.log:log_decorator.py:38 
+======================================================
+用例标题: 查看收藏网址列表接口
+请求路径: https://www.wanandroid.com/lg/collect/usertools/json
+请求方式: GET
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data;', 'cookie': 'loginUserName_wanandroid_com=13336999328;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;JSESSIONID=D9351AD63F784F07B5EE1026E07711CE;loginUserName=13336999328;token_pass=5d9b90bcb70640183e09d1e755ead823;'}
+请求内容: None
+接口响应内容: {"data":[],"errorCode":0,"errorMsg":""}
+接口响应时长: 194 ms
+Http状态码: 200
+=====================================================
+INFO    2025-04-06 22:43:52,436g:\demo\PY\From0to1\logs\info-2025-04-06.log:log_decorator.py:38 
+======================================================
+用例标题: 正常登录
+请求路径: https://www.wanandroid.com/user/login
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '36', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容: {'username': '13336999328', 'password': '123456'}
+接口响应内容: {"data":{"admin":false,"chapterTops":[],"coinCount":33,"collectIds":[],"email":"","icon":"","id":167122,"nickname":"13336999328","password":"","publicName":"13336999328","token":"","type":0,"username":"13336999328"},"errorCode":0,"errorMsg":""}
+接口响应时长: 685 ms
+Http状态码: 200
+=====================================================
+INFO    2025-04-06 22:43:52,705g:\demo\PY\From0to1\logs\info-2025-04-06.log:log_decorator.py:38 
+======================================================
+用例标题: 输入错误的密码
+请求路径: https://www.wanandroid.com/user/login
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data; boundary=bbb0a06b019249cea6dbdc35bc86add8', 'Content-Length': '232'}
+请求内容: {'username': '18800000001', 'password': '12345'}
+接口响应内容: {"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长: 250 ms
+Http状态码: 200
+=====================================================
+INFO    2025-04-06 22:43:53,003g:\demo\PY\From0to1\logs\info-2025-04-06.log:log_decorator.py:38 
+======================================================
+用例标题: 登录密码为空
+请求路径: https://www.wanandroid.com/user/login
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data; boundary=564b151420904999ab45a40545db97ba', 'Content-Length': '231'}
+请求内容: {'username': '18800000001', 'password': None}
+接口响应内容: {"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长: 281 ms
+Http状态码: 200
+=====================================================
+INFO    2025-04-06 22:43:53,383g:\demo\PY\From0to1\logs\info-2025-04-06.log:log_decorator.py:38 
+======================================================
+用例标题: 输入非1开头的手机号码
+请求路径: https://www.wanandroid.com/user/login
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data; boundary=1cf41bfcf9864478a4a130f84bfcbe2d', 'Content-Length': '232'}
+请求内容: {'username': '28800000001', 'password': '12345'}
+接口响应内容: {"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长: 363 ms
+Http状态码: 200
+=====================================================
+INFO    2025-04-06 22:43:53,700g:\demo\PY\From0to1\logs\info-2025-04-06.log:log_decorator.py:38 
+======================================================
+用例标题: 输入手机号码小于11位
+请求路径: https://www.wanandroid.com/user/login
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data; boundary=c727a97c29ef40ccbdf4e1b5af475367', 'Content-Length': '231'}
+请求内容: {'username': '1880000000', 'password': '12345'}
+接口响应内容: {"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长: 301 ms
+Http状态码: 200
+=====================================================
+INFO    2025-04-06 22:43:54,087g:\demo\PY\From0to1\logs\info-2025-04-06.log:log_decorator.py:38 
+======================================================
+用例标题: 输入手机号码大于于11位
+请求路径: https://www.wanandroid.com/user/login
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data; boundary=a95ae493b2e042f19af59d2e2d293b93', 'Content-Length': '232'}
+请求内容: {'username': '18800000000', 'password': '12345'}
+接口响应内容: {"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长: 365 ms
+Http状态码: 200
+=====================================================
+INFO    2025-04-06 22:43:54,421g:\demo\PY\From0to1\logs\info-2025-04-06.log:log_decorator.py:38 
+======================================================
+用例标题: 手机号码为空
+请求路径: https://www.wanandroid.com/user/login
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data; boundary=a2d5bd183fa24bfd87fbfc26cbf3c589', 'Content-Length': '225'}
+请求内容: {'username': None, 'password': '12345'}
+接口响应内容: {"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长: 314 ms
+Http状态码: 200
+=====================================================
+INFO    2025-04-06 22:43:54,701g:\demo\PY\From0to1\logs\info-2025-04-06.log:log_decorator.py:38 
+======================================================
+用例标题: 手机号码首位包含空格
+请求路径: https://www.wanandroid.com/user/login
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data; boundary=c8296a77f4b64c5fbe32b15f95e2447c', 'Content-Length': '234'}
+请求内容: {'username': ' 18867507063 ', 'password': '12345'}
+接口响应内容: {"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长: 261 ms
+Http状态码: 200
+=====================================================
+INFO    2025-04-06 22:43:54,916g:\demo\PY\From0to1\logs\info-2025-04-06.log:log_decorator.py:38 
+======================================================
+用例标题: 新增收藏网址接口
+请求路径: https://www.wanandroid.com/lg/collect/addtool/json
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'cookie': 'loginUserName_wanandroid_com=13336999328;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;JSESSIONID=D9351AD63F784F07B5EE1026E07711CE;loginUserName=13336999328;token_pass=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '93', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容: {'name': '自动化', 'link': 'https://gitee.com/yu_xiao_qi/pytest-auto-api2'}
+接口响应内容: {"data":{"desc":"","icon":"","id":104336,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":167122,"visible":1},"errorCode":0,"errorMsg":""}
+接口响应时长: 152 ms
+Http状态码: 200
+=====================================================
+INFO    2025-04-06 22:43:55,088g:\demo\PY\From0to1\logs\info-2025-04-06.log:log_decorator.py:38 
+======================================================
+用例标题: 正常删除收藏网站
+请求路径: https://www.wanandroid.com/lg/collect/deletetool/json
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data; boundary=059bcf0646cb494698d9efa504c776a2', 'cookie': 'loginUserName_wanandroid_com=13336999328;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;JSESSIONID=D9351AD63F784F07B5EE1026E07711CE;loginUserName=13336999328;token_pass=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '212'}
+请求内容: {'id': '104336', 'id2': 2}
+接口响应内容: {"data":null,"errorCode":0,"errorMsg":""}
+接口响应时长: 164 ms
+Http状态码: 200
+=====================================================
+ERROR   2025-04-06 22:43:55,096g:\demo\PY\From0to1\logs\info-2025-04-06.log:conftest.py:115 用例总数: 15
+ERROR   2025-04-06 22:43:55,097g:\demo\PY\From0to1\logs\info-2025-04-06.log:conftest.py:116 异常用例数: 0
+INFO    2025-04-06 22:43:55,098g:\demo\PY\From0to1\logs\info-2025-04-06.log:conftest.py:119 用例执行时长: 7.80 s
+INFO    2025-04-06 22:43:55,099g:\demo\PY\From0to1\logs\info-2025-04-06.log:conftest.py:123 用例成功率: 86.67 %
+INFO    2025-04-06 22:52:11,222g:\demo\PY\From0to1\logs\info-2025-04-06.log:run.py:18 开始执行xxx项目名称项目
+INFO    2025-04-06 22:52:13,099g:\demo\PY\From0to1\logs\info-2025-04-06.log:log_decorator.py:40 
+======================================================
+用例标题: 正常获取个人身份信息
+请求路径: https://www.wanandroid.com/user/lg/userinfo/json
+请求方式: GET
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data;', 'cookie': 'loginUserName_wanandroid_com=13336999328;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;JSESSIONID=DE7895F94780E68CA5FDA42A0A7E2B62;loginUserName=13336999328;token_pass=5d9b90bcb70640183e09d1e755ead823;'}
+请求内容: None
+接口响应内容: {"data":{"coinInfo":{"coinCount":33,"level":1,"nickname":"","rank":"41579","userId":167122,"username":"1**36999328"},"collectArticleInfo":{"count":0},"userInfo":{"admin":false,"chapterTops":[],"coinCount":33,"collectIds":[],"email":"","icon":"","id":167122,"nickname":"13336999328","password":"","publicName":"13336999328","token":"","type":0,"username":"13336999328"}},"errorCode":0,"errorMsg":""}
+接口响应时长: 183 ms
+Http状态码: 200
+=====================================================
+INFO    2025-04-06 22:52:13,287g:\demo\PY\From0to1\logs\info-2025-04-06.log:log_decorator.py:40 
+======================================================
+用例标题: 新增收藏网址接口
+请求路径: https://www.wanandroid.com/lg/collect/addtool/json
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'cookie': 'loginUserName_wanandroid_com=13336999328;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;JSESSIONID=DE7895F94780E68CA5FDA42A0A7E2B62;loginUserName=13336999328;token_pass=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '93', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容: {'name': '自动化', 'link': 'https://gitee.com/yu_xiao_qi/pytest-auto-api2'}
+接口响应内容: {"data":{"desc":"","icon":"","id":104337,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":167122,"visible":1},"errorCode":0,"errorMsg":""}
+接口响应时长: 169 ms
+Http状态码: 200
+=====================================================
+INFO    2025-04-06 22:52:13,522g:\demo\PY\From0to1\logs\info-2025-04-06.log:log_decorator.py:40 
+======================================================
+用例标题: 正常删除收藏网站
+请求路径: https://www.wanandroid.com/lg/collect/deletetool/json
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data; boundary=175eadeb1dcd4261aaab0619f8ebd020', 'cookie': 'loginUserName_wanandroid_com=13336999328;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;JSESSIONID=DE7895F94780E68CA5FDA42A0A7E2B62;loginUserName=13336999328;token_pass=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '212'}
+请求内容: {'id': 104337, 'id2': 2}
+接口响应内容: {"data":null,"errorCode":0,"errorMsg":""}
+接口响应时长: 164 ms
+Http状态码: 200
+=====================================================
+INFO    2025-04-06 22:52:13,693g:\demo\PY\From0to1\logs\info-2025-04-06.log:log_decorator.py:40 
+======================================================
+用例标题: 未登录状态下新增收藏网址
+请求路径: https://www.wanandroid.com/lg/collect/addtool/json
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data; boundary=ee3990b401744279884053444db7e8e0', 'Content-Length': '281'}
+请求内容: {'name': '自动生成收藏网址1540', 'link': 'https://gitee.com/yu_xiao_qi/pytest-auto-api2'}
+接口响应内容: {"errorCode":-1001,"errorMsg":"请先登录！"}
+接口响应时长: 155 ms
+Http状态码: 200
+=====================================================
+INFO    2025-04-06 22:52:15,920g:\demo\PY\From0to1\logs\info-2025-04-06.log:log_decorator.py:40 
+======================================================
+用例标题: 查看收藏网址列表接口
+请求路径: https://www.wanandroid.com/lg/collect/usertools/json
+请求方式: GET
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data;', 'cookie': 'loginUserName_wanandroid_com=13336999328;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;JSESSIONID=DE7895F94780E68CA5FDA42A0A7E2B62;loginUserName=13336999328;token_pass=5d9b90bcb70640183e09d1e755ead823;'}
+请求内容: None
+接口响应内容: {"data":[],"errorCode":0,"errorMsg":""}
+接口响应时长: 193 ms
+Http状态码: 200
+=====================================================
+INFO    2025-04-06 22:52:16,646g:\demo\PY\From0to1\logs\info-2025-04-06.log:log_decorator.py:40 
+======================================================
+用例标题: 正常登录
+请求路径: https://www.wanandroid.com/user/login
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '36', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容: {'username': '13336999328', 'password': '123456'}
+接口响应内容: {"data":{"admin":false,"chapterTops":[],"coinCount":33,"collectIds":[],"email":"","icon":"","id":167122,"nickname":"13336999328","password":"","publicName":"13336999328","token":"","type":0,"username":"13336999328"},"errorCode":0,"errorMsg":""}
+接口响应时长: 700 ms
+Http状态码: 200
+=====================================================
+INFO    2025-04-06 22:52:16,931g:\demo\PY\From0to1\logs\info-2025-04-06.log:log_decorator.py:40 
+======================================================
+用例标题: 输入错误的密码
+请求路径: https://www.wanandroid.com/user/login
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data; boundary=6e93655fe38447e3b558760dddb0159b', 'Content-Length': '232'}
+请求内容: {'username': '18800000001', 'password': '12345'}
+接口响应内容: {"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长: 265 ms
+Http状态码: 200
+=====================================================
+INFO    2025-04-06 22:52:17,205g:\demo\PY\From0to1\logs\info-2025-04-06.log:log_decorator.py:40 
+======================================================
+用例标题: 登录密码为空
+请求路径: https://www.wanandroid.com/user/login
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data; boundary=b4caeaa1526b499d8826fb49a66c3998', 'Content-Length': '231'}
+请求内容: {'username': '18800000001', 'password': None}
+接口响应内容: {"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长: 258 ms
+Http状态码: 200
+=====================================================
+INFO    2025-04-06 22:52:17,476g:\demo\PY\From0to1\logs\info-2025-04-06.log:log_decorator.py:40 
+======================================================
+用例标题: 输入非1开头的手机号码
+请求路径: https://www.wanandroid.com/user/login
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data; boundary=0956362e442a405ba885a4028551717e', 'Content-Length': '232'}
+请求内容: {'username': '28800000001', 'password': '12345'}
+接口响应内容: {"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长: 259 ms
+Http状态码: 200
+=====================================================
+INFO    2025-04-06 22:52:17,726g:\demo\PY\From0to1\logs\info-2025-04-06.log:log_decorator.py:40 
+======================================================
+用例标题: 输入手机号码小于11位
+请求路径: https://www.wanandroid.com/user/login
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data; boundary=6a8a658d46ef4f10b11ca538eb629a5b', 'Content-Length': '231'}
+请求内容: {'username': '1880000000', 'password': '12345'}
+接口响应内容: {"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长: 237 ms
+Http状态码: 200
+=====================================================
+INFO    2025-04-06 22:52:17,989g:\demo\PY\From0to1\logs\info-2025-04-06.log:log_decorator.py:40 
+======================================================
+用例标题: 输入手机号码大于于11位
+请求路径: https://www.wanandroid.com/user/login
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data; boundary=4e3daf57eb5944e08e4d76c24e08dddc', 'Content-Length': '232'}
+请求内容: {'username': '18800000000', 'password': '12345'}
+接口响应内容: {"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长: 250 ms
+Http状态码: 200
+=====================================================
+INFO    2025-04-06 22:52:18,222g:\demo\PY\From0to1\logs\info-2025-04-06.log:log_decorator.py:40 
+======================================================
+用例标题: 手机号码为空
+请求路径: https://www.wanandroid.com/user/login
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data; boundary=2c093b77b4c44cf0ad52bcfd8a0ccefc', 'Content-Length': '225'}
+请求内容: {'username': None, 'password': '12345'}
+接口响应内容: {"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长: 224 ms
+Http状态码: 200
+=====================================================
+INFO    2025-04-06 22:52:18,494g:\demo\PY\From0to1\logs\info-2025-04-06.log:log_decorator.py:40 
+======================================================
+用例标题: 手机号码首位包含空格
+请求路径: https://www.wanandroid.com/user/login
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data; boundary=f68d7645b38a497f94f0584710a67b05', 'Content-Length': '234'}
+请求内容: {'username': ' 18867507063 ', 'password': '12345'}
+接口响应内容: {"data":null,"errorCode":-1,"errorMsg":"账号密码不匹配！"}
+接口响应时长: 261 ms
+Http状态码: 200
+=====================================================
+INFO    2025-04-06 22:52:18,770g:\demo\PY\From0to1\logs\info-2025-04-06.log:log_decorator.py:40 
+======================================================
+用例标题: 新增收藏网址接口
+请求路径: https://www.wanandroid.com/lg/collect/addtool/json
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'cookie': 'loginUserName_wanandroid_com=13336999328;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;JSESSIONID=DE7895F94780E68CA5FDA42A0A7E2B62;loginUserName=13336999328;token_pass=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '93', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容: {'name': '自动化', 'link': 'https://gitee.com/yu_xiao_qi/pytest-auto-api2'}
+接口响应内容: {"data":{"desc":"","icon":"","id":104338,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":167122,"visible":1},"errorCode":0,"errorMsg":""}
+接口响应时长: 198 ms
+Http状态码: 200
+=====================================================
+INFO    2025-04-06 22:52:18,970g:\demo\PY\From0to1\logs\info-2025-04-06.log:log_decorator.py:40 
+======================================================
+用例标题: 正常删除收藏网站
+请求路径: https://www.wanandroid.com/lg/collect/deletetool/json
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data; boundary=f65fc13092d04da0b246fbf697fdd95f', 'cookie': 'loginUserName_wanandroid_com=13336999328;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;JSESSIONID=DE7895F94780E68CA5FDA42A0A7E2B62;loginUserName=13336999328;token_pass=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '212'}
+请求内容: {'id': '104338', 'id2': 2}
+接口响应内容: {"data":null,"errorCode":0,"errorMsg":""}
+接口响应时长: 189 ms
+Http状态码: 200
+=====================================================
+ERROR   2025-04-06 22:52:18,978g:\demo\PY\From0to1\logs\info-2025-04-06.log:conftest.py:117 用例总数: 15
+ERROR   2025-04-06 22:52:18,979g:\demo\PY\From0to1\logs\info-2025-04-06.log:conftest.py:118 异常用例数: 0
+INFO    2025-04-06 22:52:18,980g:\demo\PY\From0to1\logs\info-2025-04-06.log:conftest.py:121 用例执行时长: 7.50 s
+INFO    2025-04-06 22:52:18,981g:\demo\PY\From0to1\logs\info-2025-04-06.log:conftest.py:125 用例成功率: 86.67 %
+INFO    2025-04-06 22:57:26,063G:\demo\PY\From0to1\logs\info-2025-04-06.log:run.py:18 开始执行xxx项目名称项目
+INFO    2025-04-06 22:57:54,005G:\demo\PY\From0to1\logs\info-2025-04-06.log:run.py:18 开始执行xxx项目名称项目
+ERROR   2025-04-06 22:58:55,143G:\demo\PY\From0to1\logs\info-2025-04-06.log:conftest.py:117 用例总数: 15
+ERROR   2025-04-06 22:58:55,143G:\demo\PY\From0to1\logs\info-2025-04-06.log:conftest.py:118 异常用例数: 0
+INFO    2025-04-06 22:58:55,145G:\demo\PY\From0to1\logs\info-2025-04-06.log:conftest.py:121 用例执行时长: 21.92 s
+INFO    2025-04-06 22:58:55,145G:\demo\PY\From0to1\logs\info-2025-04-06.log:conftest.py:125 用例成功率: 0.00 %

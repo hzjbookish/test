@@ -1,0 +1,56 @@
+INFO    2025-04-10 00:12:41,059G:\demo\PY\From0to1\logs\info-2025-04-10.log:run.py:18 开始执行xxx项目名称项目
+INFO    2025-04-10 00:18:41,603G:\demo\PY\From0to1\logs\info-2025-04-10.log:log_decorator.py:40 
+======================================================
+用例标题: 正常获取个人身份信息
+请求路径: https://www.wanandroid.com/user/lg/userinfo/json
+请求方式: GET
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data;', 'cookie': 'loginUserName_wanandroid_com=13336999328;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;JSESSIONID=9C162E3631BFD0394745A0B3106C41A1;loginUserName=13336999328;token_pass=5d9b90bcb70640183e09d1e755ead823;'}
+请求内容: None
+接口响应内容: {"data":{"coinInfo":{"coinCount":60,"level":1,"nickname":"","rank":"22758","userId":167122,"username":"1**36999328"},"collectArticleInfo":{"count":0},"userInfo":{"admin":false,"chapterTops":[],"coinCount":60,"collectIds":[],"email":"","icon":"","id":167122,"nickname":"13336999328","password":"","publicName":"13336999328","token":"","type":0,"username":"13336999328"}},"errorCode":0,"errorMsg":""}
+接口响应时长: 172 ms
+Http状态码: 200
+=====================================================
+INFO    2025-04-10 00:18:41,805G:\demo\PY\From0to1\logs\info-2025-04-10.log:log_decorator.py:40 
+======================================================
+用例标题: 新增收藏网址接口
+请求路径: https://www.wanandroid.com/lg/collect/addtool/json
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'cookie': 'loginUserName_wanandroid_com=13336999328;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;JSESSIONID=9C162E3631BFD0394745A0B3106C41A1;loginUserName=13336999328;token_pass=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '93', 'Content-Type': 'application/x-www-form-urlencoded'}
+请求内容: {'name': '自动化', 'link': 'https://gitee.com/yu_xiao_qi/pytest-auto-api2'}
+接口响应内容: {"data":{"desc":"","icon":"","id":104401,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":167122,"visible":1},"errorCode":0,"errorMsg":""}
+接口响应时长: 176 ms
+Http状态码: 200
+=====================================================
+INFO    2025-04-10 00:18:42,031G:\demo\PY\From0to1\logs\info-2025-04-10.log:log_decorator.py:40 
+======================================================
+用例标题: 正常删除收藏网站
+请求路径: https://www.wanandroid.com/lg/collect/deletetool/json
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data; boundary=b724036c562e4d548cde0535bf4fc429', 'cookie': 'loginUserName_wanandroid_com=13336999328;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;JSESSIONID=9C162E3631BFD0394745A0B3106C41A1;loginUserName=13336999328;token_pass=5d9b90bcb70640183e09d1e755ead823;', 'Content-Length': '212'}
+请求内容: {'id': 104401, 'id2': 2}
+接口响应内容: {"data":null,"errorCode":0,"errorMsg":""}
+接口响应时长: 157 ms
+Http状态码: 200
+=====================================================
+INFO    2025-04-10 00:18:42,224G:\demo\PY\From0to1\logs\info-2025-04-10.log:log_decorator.py:40 
+======================================================
+用例标题: 未登录状态下新增收藏网址
+请求路径: https://www.wanandroid.com/lg/collect/addtool/json
+请求方式: POST
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data; boundary=0ae411fd131648fc813e3748f7fa75bc', 'Content-Length': '281'}
+请求内容: {'name': '自动生成收藏网址3022', 'link': 'https://gitee.com/yu_xiao_qi/pytest-auto-api2'}
+接口响应内容: {"errorCode":-1001,"errorMsg":"请先登录！"}
+接口响应时长: 170 ms
+Http状态码: 200
+=====================================================
+INFO    2025-04-10 00:26:23,115G:\demo\PY\From0to1\logs\info-2025-04-10.log:log_decorator.py:40 
+======================================================
+用例标题: 查看收藏网址列表接口
+请求路径: https://www.wanandroid.com/lg/collect/usertools/json
+请求方式: GET
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data;', 'cookie': 'loginUserName_wanandroid_com=13336999328;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;JSESSIONID=9C162E3631BFD0394745A0B3106C41A1;loginUserName=13336999328;token_pass=5d9b90bcb70640183e09d1e755ead823;'}
+请求内容: None
+接口响应内容: {"data":[{"desc":"","icon":"","id":104341,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":167122,"visible":1},{"desc":"","icon":"","id":104342,"link":"https://gitee.com/yu_xiao_qi/pytest-auto-api2","name":"自动化","order":0,"userId":167122,"visible":1}],"errorCode":0,"errorMsg":""}
+接口响应时长: 237 ms
+Http状态码: 200
+=====================================================

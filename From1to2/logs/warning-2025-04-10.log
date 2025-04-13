@@ -1,0 +1,2 @@
+WARNING 2025-04-10 00:18:42,033G:\demo\PY\From0to1\logs\warning-2025-04-10.log:teardown_control.py:311 程序中检查到您数据库开关为关闭状态，已为您跳过删除sql: UPDATE `api_test`.`ysq_test` SET `name` = '$json($.data.id)$' WHERE `name` = '2' LIMIT 1
+WARNING 2025-04-10 00:19:53,948G:\demo\PY\From0to1\logs\warning-2025-04-10.log:dependent_case.py:135 检查到数据库开关为关闭状态，请确认配置

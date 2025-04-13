@@ -1,0 +1,47 @@
+WARNING 2025-04-12 16:41:39,645g:\demo\PY\From1to2\logs\warning-2025-04-12.log:teardown_control.py:311 程序中检查到您数据库开关为关闭状态，已为您跳过删除sql: UPDATE `api_test`.`ysq_test` SET `name` = '$json($.data.id)$' WHERE `name` = '2' LIMIT 1
+WARNING 2025-04-12 16:41:39,805g:\demo\PY\From1to2\logs\warning-2025-04-12.log:dependent_case.py:135 检查到数据库开关为关闭状态，请确认配置
+WARNING 2025-04-12 16:41:45,015g:\demo\PY\From1to2\logs\warning-2025-04-12.log:conftest.py:120 跳过用例数: 2
+WARNING 2025-04-12 16:48:09,969g:\demo\PY\From1to2\logs\warning-2025-04-12.log:teardown_control.py:311 程序中检查到您数据库开关为关闭状态，已为您跳过删除sql: UPDATE `api_test`.`ysq_test` SET `name` = '$json($.data.id)$' WHERE `name` = '2' LIMIT 1
+WARNING 2025-04-12 16:48:10,162g:\demo\PY\From1to2\logs\warning-2025-04-12.log:dependent_case.py:135 检查到数据库开关为关闭状态，请确认配置
+WARNING 2025-04-12 16:48:15,402g:\demo\PY\From1to2\logs\warning-2025-04-12.log:conftest.py:120 跳过用例数: 2
+WARNING 2025-04-12 17:02:39,928G:\demo\PY\From1to2\logs\warning-2025-04-12.log:conftest.py:120 跳过用例数: 0
+WARNING 2025-04-12 17:03:04,540g:\demo\PY\From1to2\logs\warning-2025-04-12.log:conftest.py:120 跳过用例数: 0
+WARNING 2025-04-12 17:05:18,028G:\demo\PY\From1to2\logs\warning-2025-04-12.log:conftest.py:120 跳过用例数: 0
+WARNING 2025-04-12 17:09:15,283g:\demo\PY\From1to2\logs\warning-2025-04-12.log:conftest.py:120 跳过用例数: 0
+WARNING 2025-04-12 17:09:38,876G:\demo\PY\From1to2\logs\warning-2025-04-12.log:conftest.py:120 跳过用例数: 0
+WARNING 2025-04-12 17:09:49,689G:\demo\PY\From1to2\logs\warning-2025-04-12.log:conftest.py:120 跳过用例数: 0
+WARNING 2025-04-12 17:13:12,524g:\demo\PY\From1to2\logs\warning-2025-04-12.log:conftest.py:121 跳过用例数: 0
+WARNING 2025-04-12 20:26:47,563G:\demo\PY\From1to2\logs\warning-2025-04-12.log:conftest.py:120 跳过用例数: 0
+WARNING 2025-04-12 20:27:45,423g:\demo\PY\From1to2\logs\warning-2025-04-12.log:conftest.py:120 跳过用例数: 0
+WARNING 2025-04-12 20:33:41,253G:\demo\PY\From1to2\logs\warning-2025-04-12.log:assert_control.py:117 检测到数据库状态为关闭状态，程序已为您跳过此断言，断言值:{'errorCode': {'jsonpath': '$.errorCode', 'type': '==', 'value': 0, 'AssertType': None}, 'username': {'jsonpath': '$.data.userInfo.username', 'type': '==', 'value': '13336999328', 'AssertType': None}}
+WARNING 2025-04-12 20:33:41,256G:\demo\PY\From1to2\logs\warning-2025-04-12.log:assert_control.py:117 检测到数据库状态为关闭状态，程序已为您跳过此断言，断言值:{'errorCode': {'jsonpath': '$.errorCode', 'type': '==', 'value': 0, 'AssertType': None}, 'username': {'jsonpath': '$.data.userInfo.username', 'type': '==', 'value': '13336999328', 'AssertType': None}}
+WARNING 2025-04-12 20:33:42,930G:\demo\PY\From1to2\logs\warning-2025-04-12.log:assert_control.py:117 检测到数据库状态为关闭状态，程序已为您跳过此断言，断言值:{'errorCode': {'jsonpath': '$.errorCode', 'type': '==', 'value': 0, 'AssertType': None}, 'username': {'jsonpath': '$.data.userInfo.username', 'type': '==', 'value': '13336999328', 'AssertType': None}}
+WARNING 2025-04-12 20:33:42,933G:\demo\PY\From1to2\logs\warning-2025-04-12.log:assert_control.py:117 检测到数据库状态为关闭状态，程序已为您跳过此断言，断言值:{'errorCode': {'jsonpath': '$.errorCode', 'type': '==', 'value': 0, 'AssertType': None}, 'username': {'jsonpath': '$.data.userInfo.username', 'type': '==', 'value': '13336999328', 'AssertType': None}}
+WARNING 2025-04-12 20:34:24,161G:\demo\PY\From1to2\logs\warning-2025-04-12.log:assert_control.py:117 检测到数据库状态为关闭状态，程序已为您跳过此断言，断言值:{'jsonpath': '$.errorCode', 'type': '==', 'value': 0, 'AssertType': None}
+WARNING 2025-04-12 20:34:24,163G:\demo\PY\From1to2\logs\warning-2025-04-12.log:assert_control.py:117 检测到数据库状态为关闭状态，程序已为您跳过此断言，断言值:{'jsonpath': '$.errorCode', 'type': '==', 'value': 0, 'AssertType': None}
+WARNING 2025-04-12 20:37:02,992G:\demo\PY\From1to2\logs\warning-2025-04-12.log:conftest.py:120 跳过用例数: 0
+WARNING 2025-04-12 20:50:43,163g:\demo\PY\From1to2\logs\warning-2025-04-12.log:conftest.py:120 跳过用例数: 0
+WARNING 2025-04-12 20:51:42,008g:\demo\PY\From1to2\logs\warning-2025-04-12.log:conftest.py:120 跳过用例数: 0
+WARNING 2025-04-12 20:53:36,603g:\demo\PY\From1to2\logs\warning-2025-04-12.log:conftest.py:120 跳过用例数: 0
+WARNING 2025-04-12 20:55:30,694g:\demo\PY\From1to2\logs\warning-2025-04-12.log:conftest.py:120 跳过用例数: 0
+WARNING 2025-04-12 20:56:36,636g:\demo\PY\From1to2\logs\warning-2025-04-12.log:conftest.py:120 跳过用例数: 0
+WARNING 2025-04-12 20:58:10,595g:\demo\PY\From1to2\logs\warning-2025-04-12.log:conftest.py:120 跳过用例数: 0
+WARNING 2025-04-12 20:59:06,286g:\demo\PY\From1to2\logs\warning-2025-04-12.log:conftest.py:120 跳过用例数: 0
+WARNING 2025-04-12 21:03:14,180g:\demo\PY\From1to2\logs\warning-2025-04-12.log:conftest.py:120 跳过用例数: 0
+WARNING 2025-04-12 21:14:50,883G:\demo\PY\From1to2\logs\warning-2025-04-12.log:conftest.py:120 跳过用例数: 0
+WARNING 2025-04-12 21:19:41,333g:\demo\PY\From1to2\logs\warning-2025-04-12.log:conftest.py:120 跳过用例数: 0
+WARNING 2025-04-12 21:21:26,933g:\demo\PY\From1to2\logs\warning-2025-04-12.log:conftest.py:120 跳过用例数: 0
+WARNING 2025-04-12 21:23:31,253g:\demo\PY\From1to2\logs\warning-2025-04-12.log:conftest.py:120 跳过用例数: 0
+WARNING 2025-04-12 21:26:50,261g:\demo\PY\From1to2\logs\warning-2025-04-12.log:conftest.py:120 跳过用例数: 0
+WARNING 2025-04-12 21:28:06,643g:\demo\PY\From1to2\logs\warning-2025-04-12.log:conftest.py:120 跳过用例数: 0
+WARNING 2025-04-12 21:29:18,642g:\demo\PY\From1to2\logs\warning-2025-04-12.log:conftest.py:120 跳过用例数: 0
+WARNING 2025-04-12 21:43:29,064g:\demo\PY\From1to2\logs\warning-2025-04-12.log:conftest.py:120 跳过用例数: 0
+WARNING 2025-04-12 21:45:27,144g:\demo\PY\From1to2\logs\warning-2025-04-12.log:conftest.py:120 跳过用例数: 0
+WARNING 2025-04-12 21:52:13,184g:\demo\PY\From1to2\logs\warning-2025-04-12.log:conftest.py:120 跳过用例数: 0
+WARNING 2025-04-12 22:00:08,211g:\demo\PY\From1to2\logs\warning-2025-04-12.log:conftest.py:120 跳过用例数: 0
+WARNING 2025-04-12 23:15:07,826G:\demo\PY\From1to2\logs\warning-2025-04-12.log:conftest.py:120 跳过用例数: 0
+WARNING 2025-04-12 23:17:24,646g:\demo\PY\From1to2\logs\warning-2025-04-12.log:conftest.py:120 跳过用例数: 0
+WARNING 2025-04-12 23:22:09,133G:\demo\PY\From1to2\logs\warning-2025-04-12.log:conftest.py:120 跳过用例数: 0
+WARNING 2025-04-12 23:26:24,924g:\demo\PY\From1to2\logs\warning-2025-04-12.log:conftest.py:120 跳过用例数: 0
+WARNING 2025-04-12 23:28:38,594g:\demo\PY\From1to2\logs\warning-2025-04-12.log:conftest.py:120 跳过用例数: 0
+WARNING 2025-04-12 23:36:55,378g:\demo\PY\From1to2\logs\warning-2025-04-12.log:conftest.py:120 跳过用例数: 0
