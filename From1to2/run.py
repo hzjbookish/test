@@ -2,9 +2,9 @@ import os
 import sys
 import traceback
 import pytest
-from utils.other_tools.allure_data.allure_report_data import AllureFileClean    # 报告数据清洗
+#from utils.other_tools.allure_data.allure_report_data import AllureFileClean    # 报告数据清洗
 from utils.logging_tool.log_control import INFO # 选择日志等级为INFO的生成器
-from utils.other_tools.allure_data.error_case_excel import ErrorCaseExcel
+#from utils.other_tools.allure_data.error_case_excel import ErrorCaseExcel
 from utils import config    # utils初始化时解包后的配置信息
 
 def run():

@@ -1,0 +1,5 @@
+ERROR   2025-04-16 23:51:47,627g:\demo\PY\From1to2\logs\error-2025-04-16.log:conftest.py:119 失败用例数: 1
+ERROR   2025-04-16 23:52:10,722g:\demo\PY\From1to2\logs\error-2025-04-16.log:conftest.py:119 失败用例数: 1
+ERROR   2025-04-16 23:53:22,766g:\demo\PY\From1to2\logs\error-2025-04-16.log:conftest.py:119 失败用例数: 0
+ERROR   2025-04-16 23:56:17,110g:\demo\PY\From1to2\logs\error-2025-04-16.log:conftest.py:119 失败用例数: 1
+ERROR   2025-04-16 23:57:14,026g:\demo\PY\From1to2\logs\error-2025-04-16.log:conftest.py:119 失败用例数: 0

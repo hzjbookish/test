@@ -1,11 +1,11 @@
 project_name: xxx项目名称
 
-env: 测试环境
+env: pre
 # 测试人员名称，作用于自动生成代码的作者，以及发送企业微信、钉钉通知的测试负责人
-tester_name: 七月
+tester_name: Hzj
 
-# 域名
-host: https://www.wanandroid.com
+# 域名,乱写的，验证后续修改是否有用
+host: https://www.wanandroid.comxxxx//81548919818//
 
 
 

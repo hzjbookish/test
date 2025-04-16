@@ -1,0 +1,16 @@
+INFO    2025-04-17 00:21:28,483G:\demo\PY\From1to2\logs\info-2025-04-17.log:run.py:13 开始执行xxx项目名称项目
+INFO    2025-04-17 00:22:13,838G:\demo\PY\From1to2\logs\info-2025-04-17.log:log_decorator.py:40 
+======================================================
+用例标题: 正常获取个人身份信息
+请求路径: https://www.wanandroid.com/user/lg/userinfo/json
+请求方式: GET
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data;', 'cookie': 'loginUserName_wanandroid_com=13336999328;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;JSESSIONID=C846F506709E82AD391F49CBEF1A2EEC;loginUserName=13336999328;token_pass=5d9b90bcb70640183e09d1e755ead823;'}
+请求内容: None
+接口响应内容: {"data":{"coinInfo":{"coinCount":186,"level":2,"nickname":"","rank":"10589","userId":167122,"username":"1**36999328"},"collectArticleInfo":{"count":0},"userInfo":{"admin":false,"chapterTops":[],"coinCount":186,"collectIds":[],"email":"","icon":"","id":167122,"nickname":"13336999328","password":"","publicName":"13336999328","token":"","type":0,"username":"13336999328"}},"errorCode":0,"errorMsg":""}
+接口响应时长: 148 ms
+Http状态码: 200
+=====================================================
+ERROR   2025-04-17 00:28:25,137G:\demo\PY\From1to2\logs\info-2025-04-17.log:conftest.py:117 用例总数: 0
+ERROR   2025-04-17 00:28:25,138G:\demo\PY\From1to2\logs\info-2025-04-17.log:conftest.py:118 异常用例数: 0
+INFO    2025-04-17 00:28:25,139G:\demo\PY\From1to2\logs\info-2025-04-17.log:conftest.py:121 用例执行时长: 0.03 s
+INFO    2025-04-17 00:28:25,140G:\demo\PY\From1to2\logs\info-2025-04-17.log:conftest.py:127 用例成功率: 0.00 %

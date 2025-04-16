@@ -1,1 +1,1 @@
-[{"uid":"ec8306c42125d74","name":"test_get_user_info[正常获取个人身份信息]","time":{"start":1744472215146,"stop":1744472215369,"duration":223},"status":"passed","severity":"normal"}]
+[{"uid":"385f4696f915e46c","name":"test_get_user_info[正常获取个人身份信息]","time":{"start":1744819033833,"stop":1744819034023,"duration":190},"status":"passed","severity":"normal"}]

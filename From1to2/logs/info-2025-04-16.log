@@ -1,0 +1,61 @@
+INFO    2025-04-16 23:37:47,789G:\demo\PY\From1to2\logs\info-2025-04-16.log:run.py:13 开始执行xxx项目名称项目
+INFO    2025-04-16 23:37:57,401G:\demo\PY\From1to2\logs\info-2025-04-16.log:run.py:13 开始执行xxx项目名称项目
+INFO    2025-04-16 23:51:44,960g:\demo\PY\From1to2\logs\info-2025-04-16.log:run.py:13 开始执行xxx项目名称项目
+ERROR   2025-04-16 23:51:47,626g:\demo\PY\From1to2\logs\info-2025-04-16.log:conftest.py:117 用例总数: 1
+ERROR   2025-04-16 23:51:47,627g:\demo\PY\From1to2\logs\info-2025-04-16.log:conftest.py:118 异常用例数: 0
+INFO    2025-04-16 23:51:47,628g:\demo\PY\From1to2\logs\info-2025-04-16.log:conftest.py:121 用例执行时长: 2.29 s
+INFO    2025-04-16 23:51:47,629g:\demo\PY\From1to2\logs\info-2025-04-16.log:conftest.py:125 用例成功率: 0.00 %
+INFO    2025-04-16 23:52:08,749g:\demo\PY\From1to2\logs\info-2025-04-16.log:run.py:13 开始执行xxx项目名称项目
+INFO    2025-04-16 23:52:10,549g:\demo\PY\From1to2\logs\info-2025-04-16.log:log_decorator.py:40 
+======================================================
+用例标题: 正常获取个人身份信息
+请求路径: https://www.wanandroid.com/user/lg/userinfo/json
+请求方式: GET
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data;', 'cookie': 'loginUserName_wanandroid_com=13336999328;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;JSESSIONID=8E1B36188E63CED0B28C30F0C214AB00;loginUserName=13336999328;token_pass=5d9b90bcb70640183e09d1e755ead823;'}
+请求内容: None
+接口响应内容: {"data":{"coinInfo":{"coinCount":165,"level":2,"nickname":"","rank":"10589","userId":167122,"username":"1**36999328"},"collectArticleInfo":{"count":0},"userInfo":{"admin":false,"chapterTops":[],"coinCount":165,"collectIds":[],"email":"","icon":"","id":167122,"nickname":"13336999328","password":"","publicName":"13336999328","token":"","type":0,"username":"13336999328"}},"errorCode":0,"errorMsg":""}
+接口响应时长: 143 ms
+Http状态码: 200
+=====================================================
+ERROR   2025-04-16 23:52:10,722g:\demo\PY\From1to2\logs\info-2025-04-16.log:conftest.py:117 用例总数: 1
+ERROR   2025-04-16 23:52:10,722g:\demo\PY\From1to2\logs\info-2025-04-16.log:conftest.py:118 异常用例数: 0
+INFO    2025-04-16 23:52:10,723g:\demo\PY\From1to2\logs\info-2025-04-16.log:conftest.py:121 用例执行时长: 1.63 s
+INFO    2025-04-16 23:52:10,723g:\demo\PY\From1to2\logs\info-2025-04-16.log:conftest.py:125 用例成功率: 0.00 %
+INFO    2025-04-16 23:53:20,845g:\demo\PY\From1to2\logs\info-2025-04-16.log:run.py:13 开始执行xxx项目名称项目
+INFO    2025-04-16 23:53:22,760g:\demo\PY\From1to2\logs\info-2025-04-16.log:log_decorator.py:40 
+======================================================
+用例标题: 正常获取个人身份信息
+请求路径: https://www.wanandroid.com/user/lg/userinfo/json
+请求方式: GET
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data;', 'cookie': 'loginUserName_wanandroid_com=13336999328;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;JSESSIONID=559ACE1DD48847E42018769CBD152A8F;loginUserName=13336999328;token_pass=5d9b90bcb70640183e09d1e755ead823;'}
+请求内容: None
+接口响应内容: {"data":{"coinInfo":{"coinCount":165,"level":2,"nickname":"","rank":"10589","userId":167122,"username":"1**36999328"},"collectArticleInfo":{"count":0},"userInfo":{"admin":false,"chapterTops":[],"coinCount":165,"collectIds":[],"email":"","icon":"","id":167122,"nickname":"13336999328","password":"","publicName":"13336999328","token":"","type":0,"username":"13336999328"}},"errorCode":0,"errorMsg":""}
+接口响应时长: 176 ms
+Http状态码: 200
+=====================================================
+ERROR   2025-04-16 23:53:22,766g:\demo\PY\From1to2\logs\info-2025-04-16.log:conftest.py:117 用例总数: 1
+ERROR   2025-04-16 23:53:22,766g:\demo\PY\From1to2\logs\info-2025-04-16.log:conftest.py:118 异常用例数: 0
+INFO    2025-04-16 23:53:22,767g:\demo\PY\From1to2\logs\info-2025-04-16.log:conftest.py:121 用例执行时长: 1.58 s
+INFO    2025-04-16 23:53:22,767g:\demo\PY\From1to2\logs\info-2025-04-16.log:conftest.py:125 用例成功率: 100.00 %
+INFO    2025-04-16 23:56:14,601g:\demo\PY\From1to2\logs\info-2025-04-16.log:run.py:13 开始执行xxx项目名称项目
+ERROR   2025-04-16 23:56:17,109g:\demo\PY\From1to2\logs\info-2025-04-16.log:conftest.py:117 用例总数: 1
+ERROR   2025-04-16 23:56:17,110g:\demo\PY\From1to2\logs\info-2025-04-16.log:conftest.py:118 异常用例数: 0
+INFO    2025-04-16 23:56:17,110g:\demo\PY\From1to2\logs\info-2025-04-16.log:conftest.py:121 用例执行时长: 2.19 s
+INFO    2025-04-16 23:56:17,111g:\demo\PY\From1to2\logs\info-2025-04-16.log:conftest.py:125 用例成功率: 0.00 %
+INFO    2025-04-16 23:57:12,128g:\demo\PY\From1to2\logs\info-2025-04-16.log:run.py:13 开始执行xxx项目名称项目
+INFO    2025-04-16 23:57:14,019g:\demo\PY\From1to2\logs\info-2025-04-16.log:log_decorator.py:40 
+======================================================
+用例标题: 正常获取个人身份信息
+请求路径: https://www.wanandroid.com/user/lg/userinfo/json
+请求方式: GET
+请求头:   {'User-Agent': 'python-requests/2.26.0', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'multipart/form-data;', 'cookie': 'loginUserName_wanandroid_com=13336999328;token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823;JSESSIONID=0C60B9D62439A8ED336A2818D85A50D7;loginUserName=13336999328;token_pass=5d9b90bcb70640183e09d1e755ead823;'}
+请求内容: None
+接口响应内容: {"data":{"coinInfo":{"coinCount":165,"level":2,"nickname":"","rank":"10589","userId":167122,"username":"1**36999328"},"collectArticleInfo":{"count":0},"userInfo":{"admin":false,"chapterTops":[],"coinCount":165,"collectIds":[],"email":"","icon":"","id":167122,"nickname":"13336999328","password":"","publicName":"13336999328","token":"","type":0,"username":"13336999328"}},"errorCode":0,"errorMsg":""}
+接口响应时长: 179 ms
+Http状态码: 200
+=====================================================
+ERROR   2025-04-16 23:57:14,025g:\demo\PY\From1to2\logs\info-2025-04-16.log:conftest.py:117 用例总数: 1
+ERROR   2025-04-16 23:57:14,026g:\demo\PY\From1to2\logs\info-2025-04-16.log:conftest.py:118 异常用例数: 0
+INFO    2025-04-16 23:57:14,028g:\demo\PY\From1to2\logs\info-2025-04-16.log:conftest.py:121 用例执行时长: 1.58 s
+INFO    2025-04-16 23:57:14,028g:\demo\PY\From1to2\logs\info-2025-04-16.log:conftest.py:125 用例成功率: 100.00 %
+INFO    2025-04-16 23:58:44,622G:\demo\PY\From1to2\logs\info-2025-04-16.log:run.py:13 开始执行xxx项目名称项目
